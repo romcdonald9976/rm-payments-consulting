@@ -26,21 +26,21 @@ export default function About() {
 
         <div className="space-y-5">
           <p className="text-xs font-semibold tracking-[0.24em] text-gray-100">
-            ABOUT THE ARCHITECT
+            ABOUT THE LEAD
           </p>
           <h2 className="text-3xl font-semibold text-white sm:text-4xl">
-            A Strategist Who Ships Code.
+            A Product, Architecture, and Operations Leader.
           </h2>
           <p className="text-gray-100">
             RM Payments Consulting bridges a{" "}
             <span className="font-mono">24-year</span> enterprise history across
-            large-scale payment systems with hands-on R&amp;D execution at Sidekick
+            large-scale payment systems with active R&amp;D leadership at Sidekick
             Intelligence.
           </p>
           <p className="text-gray-100">
-            The result is practical transformation work: architecture that satisfies
-            board-level reliability requirements while moving fast enough to ship
-            modern, software-defined commerce capabilities.
+            The focus is practical transformation: define the right product strategy,
+            business architecture, and operating model, then work directly with
+            engineering teams to design and build the solutions.
           </p>
         </div>
       </motion.div>

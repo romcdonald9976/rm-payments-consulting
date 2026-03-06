@@ -17,11 +17,12 @@ export default function Hero() {
             ENTERPRISE PAYMENTS STRATEGY
           </p>
           <h1 className="text-4xl font-bold leading-tight tracking-tight text-white sm:text-5xl lg:text-6xl">
-            Architecting the Core Infrastructure of Global Commerce.
+            Leading Product Strategy for Global Payments and Agentic Commerce.
           </h1>
           <p className="max-w-3xl text-lg leading-relaxed text-gray-100">
-            <span className="font-mono">24</span> years of building multi-PSP platforms
-            and direct network connectivity for Block, PayPal, and Amazon.
+            <span className="font-mono">24</span> years in product management, payments
+            business architecture, and operations leadership across Block, PayPal, and
+            Amazon-partnering with engineers to design and build the right solutions.
           </p>
         </div>
 

@@ -10,11 +10,11 @@ import TechnicalProof from "../components/TechnicalProof";
 export const metadata: Metadata = {
   title: "Enterprise Payments Infrastructure and Agentic Commerce",
   description:
-    "RM Payments Consulting helps platforms and merchants improve authorization, reduce friction, and architect AI-native commerce infrastructure.",
+    "RM Payments Consulting helps platforms and merchants improve authorization, reduce friction, and lead product, business architecture, and operations for AI-native commerce.",
   openGraph: {
     title: "Enterprise Payments Infrastructure and Agentic Commerce",
     description:
-      "RM Payments Consulting helps platforms and merchants improve authorization, reduce friction, and architect AI-native commerce infrastructure.",
+      "RM Payments Consulting helps platforms and merchants improve authorization, reduce friction, and lead product, business architecture, and operations for AI-native commerce.",
     url: "/",
     images: [
       {
@@ -109,8 +109,9 @@ export default function Home() {
           <div className="mx-auto max-w-6xl space-y-8">
             <p className="max-w-5xl text-2xl font-bold leading-tight text-white sm:text-3xl">
               Don&apos;t just build payments. Build efficient, high-converting, agentic
-              commerce. I bring <span className="font-mono">24</span> years of engineering
-              and strategic experience to your stack.
+              commerce. I bring <span className="font-mono">24</span> years as a product
+              manager, payments business architect, operations leader, and builder to your
+              stack-working with engineering teams to design and build the solutions.
             </p>
             <h2 className="text-sm font-semibold tracking-[0.2em] text-gray-100">
               CONSULTING FRAMEWORK

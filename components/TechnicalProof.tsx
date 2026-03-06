@@ -26,18 +26,19 @@ export default function TechnicalProof() {
             Featured Venture: Chikoh (Agentic Commerce / AI Assistant)
           </h2>
           <p className="max-w-4xl text-gray-100">
-            Chikoh is the featured product launch and a live case study for agentic
-            commerce infrastructure, built as an AI assistant platform where enterprise
-            payment routing principles are applied to machine-native decisioning.
+            Chikoh is a featured product launch and live case study for AI-native
+            commerce strategy-a proving ground where product direction, business
+            architecture, and operating discipline are translated into deployable
+            systems with engineering partners.
           </p>
         </div>
 
         <div className="rounded-md border border-zinc-800 bg-zinc-950/70 p-8 lg:p-10">
           <div className="space-y-5">
             <p className="text-sm leading-relaxed text-gray-100">
-              The same routing logic used to optimize payment rails at PayPal was adapted
-              to model triage and orchestration, enabling Chikoh to scale with{" "}
-              <span className="font-mono">91+</span> specialized AI agents and reduce
+              The same strategic routing logic used to optimize payment rails at PayPal
+              was adapted to model triage and orchestration, enabling Chikoh to scale
+              with <span className="font-mono">91+</span> specialized AI agents and reduce
               inference costs by <span className="font-mono">80%</span>.
             </p>
             <div className="grid gap-4 md:grid-cols-3">

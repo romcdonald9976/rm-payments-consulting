@@ -5,27 +5,27 @@ import { motion } from "framer-motion";
 const pillars = [
   {
     id: "01",
-    title: "Core Infrastructure & Direct Acquiring",
+    title: "Payments Product Strategy & Business Architecture",
     detail:
-      "Design and modernization of resilient payment cores, gateway integrations, and direct network acquiring stacks.",
+      "Define target-state payment capabilities, operating models, and partner strategies that engineering teams can implement with clarity.",
   },
   {
     id: "02",
-    title: "Auth Optimization & Scheme Routing",
+    title: "Authorization, Conversion, and Commercial Performance",
     detail:
-      "Fine-grained transaction routing, dynamic retries, and authorization strategy tuned to issuer and scheme behavior.",
+      "Prioritize initiatives that reduce checkout friction, improve approval rates, and convert payment operations into measurable profit levers.",
   },
   {
     id: "03",
-    title: "High-Concurrency Data (168+ endpoints)",
+    title: "Operations Leadership for High-Scale Payment Programs",
     detail:
-      "Real-time observability and decisioning architecture engineered for high-throughput, multi-endpoint environments.",
+      "Operationalize governance, incident response, and KPI-driven execution across high-volume, multi-market payment environments.",
   },
   {
     id: "04",
-    title: "DevEx & Agentic Commerce (HTTP 402/PX-402)",
+    title: "AI-Native Commerce Roadmapping (HTTP 402/PX-402)",
     detail:
-      "Developer-centric workflows and machine-native payment rails that enable secure, autonomous transaction operations.",
+      "Translate emerging agentic commerce patterns into practical product roadmaps and collaborate with engineering to deliver safely.",
   },
 ];
 
@@ -44,7 +44,7 @@ export default function Pillars() {
             ENTERPRISE PILLARS
           </p>
           <h2 className="text-3xl font-semibold text-white sm:text-4xl">
-            Built for Reliability at Global Scale
+            Built for Strategic Outcomes at Enterprise Scale
           </h2>
         </div>
 

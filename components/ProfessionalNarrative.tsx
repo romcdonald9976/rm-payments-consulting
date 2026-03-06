@@ -21,17 +21,19 @@ export default function ProfessionalNarrative() {
           <div className="mt-6 space-y-4 text-gray-100">
             <p className="leading-relaxed">
               Over <span className="font-mono">24</span> years, the throughline has stayed
-              constant: build systems that move money with speed, reliability, and measurable
-              business impact. That started with foundational rail architecture and global scale
-              challenges at Amazon and PayPal, where low-latency authorization and direct network
-              connectivity became core operating principles.
+              constant: lead product direction, business architecture, and operations so
+              payment systems deliver measurable commercial impact. That started with
+              foundational rail strategy and global scale challenges at Amazon and PayPal,
+              where low-latency authorization and direct network connectivity became core
+              operating principles.
             </p>
             <p className="leading-relaxed">
-              The next chapter translated platform engineering into merchant outcomes-working
-              across brands like Starbucks and Kendra Scott to raise approval performance, reduce
-              checkout friction, and improve margin through smarter optimization sequencing. Today,
-              that same logic powers Chikoh, an AI-native venture exploring agentic commerce
-              infrastructure and machine-native payment behavior.
+              The next chapter translated product, architecture, and operational leadership into
+              merchant outcomes-working across brands like Starbucks and Kendra Scott to raise
+              approval performance, reduce checkout friction, and improve margin through smarter
+              optimization sequencing. Today, that same logic powers Chikoh, an AI-native venture
+              exploring agentic commerce infrastructure and machine-native payment behavior with
+              engineering partners.
             </p>
           </div>
 

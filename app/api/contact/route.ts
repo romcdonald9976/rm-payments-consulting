@@ -9,10 +9,6 @@ type ContactPayload = {
 };
 
 const SENDGRID_API_KEY = process.env.SENDGRID_API_KEY;
-const CONTACT_TO_EMAIL =
-  process.env.CONTACT_TO_EMAIL ?? "contact@rmpaymentsconsulting.com";
-const CONTACT_FROM_EMAIL =
-  process.env.CONTACT_FROM_EMAIL ?? "noreply@rmpaymentsconsulting.com";
 
 const EMAIL_REGEX = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 const NAME_REGEX = /^[\p{L}\p{M}][\p{L}\p{M}\s'.-]{1,99}$/u;
@@ -65,9 +61,9 @@ export async function POST(request: Request) {
     sendgrid.setApiKey(SENDGRID_API_KEY);
 
     await sendgrid.send({
-      to: CONTACT_TO_EMAIL,
-      from: CONTACT_FROM_EMAIL,
-      subject: "New RM Payments Consulting inquiry",
+      to: process.env.CONTACT_EMAIL,
+      from: "rob@rmpaymentsconsulting.com",
+      subject: `New RM Payments Consulting inquiry from ${name}`,
       text: [
         `Name: ${name}`,
         `Email: ${email}`,

@@ -3,9 +3,9 @@
 import { motion } from "framer-motion";
 
 const stats = [
-  { label: "Specialized AI Agents", value: "91" },
-  { label: "Orchestration Pattern", value: "MCP-Based" },
-  { label: "Real-Time Data Endpoints", value: "168+" },
+  { label: "Specialized AI Agents", value: "91+" },
+  { label: "Inference Cost Reduction", value: "80%" },
+  { label: "Orchestration", value: "MCP-Based" },
 ];
 
 export default function TechnicalProof() {
@@ -16,45 +16,48 @@ export default function TechnicalProof() {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true, amount: 0.25 }}
         transition={{ duration: 0.6, ease: "easeOut" }}
-        className="mx-auto grid max-w-6xl gap-12 lg:grid-cols-[1.1fr_0.9fr]"
+        className="mx-auto max-w-6xl space-y-10"
       >
-        <div className="space-y-5">
+        <div className="space-y-4">
           <p className="text-xs font-semibold tracking-[0.24em] text-gray-100">
-            TECHNICAL PROOF / CHIKOH CASE STUDY
+            FEATURED VENTURE
           </p>
           <h2 className="text-3xl font-semibold text-white sm:text-4xl">
-            Chikoh: Enterprise Routing Patterns Applied to AI Infrastructure
+            Chikoh: Agentic Commerce / AI Assistant
           </h2>
-          <p className="text-gray-100">
-            Chikoh was built with <span className="font-mono text-gray-100">91</span>{" "}
-            specialized AI agents,{" "}
-            <span className="font-mono text-gray-100">MCP-based orchestration</span>, and{" "}
-            <span className="font-mono text-gray-100">168+</span> real-time data endpoints.
-          </p>
-          <p className="text-gray-100">
-            The same routing logic used to optimize payment rails at PayPal was applied to
-            cut AI inference costs by{" "}
-            <span className="font-mono text-gray-100">80%</span>, while maintaining speed,
-            reliability, and control under load.
+          <p className="max-w-4xl text-gray-100">
+            Chikoh is the featured product launch and a live case study for agentic
+            commerce infrastructure, built as an AI assistant platform where enterprise
+            payment routing principles are applied to machine-native decisioning.
           </p>
         </div>
 
-        <div className="grid gap-4">
-          {stats.map((item, index) => (
-            <motion.div
-              key={item.label}
-              initial={{ opacity: 0, x: 20 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true, amount: 0.35 }}
-              transition={{ duration: 0.45, ease: "easeOut", delay: 0.08 * index }}
-              className="rounded-sm border border-white/15 bg-zinc-950/70 px-5 py-5"
-            >
-              <p className="text-xs uppercase tracking-[0.16em] text-gray-100">
-                {item.label}
-              </p>
-              <p className="mt-2 font-mono text-3xl text-white">{item.value}</p>
-            </motion.div>
-          ))}
+        <div className="rounded-md border border-zinc-800 bg-zinc-950/70 p-8 lg:p-10">
+          <div className="space-y-5">
+            <p className="text-sm leading-relaxed text-gray-100">
+              The same routing logic used to optimize payment rails at PayPal was adapted
+              to model triage and orchestration, enabling Chikoh to scale with{" "}
+              <span className="font-mono">91+</span> specialized AI agents and reduce
+              inference costs by <span className="font-mono">80%</span>.
+            </p>
+            <div className="grid gap-4 md:grid-cols-3">
+              {stats.map((item, index) => (
+                <motion.div
+                  key={item.label}
+                  initial={{ opacity: 0, y: 12 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true, amount: 0.4 }}
+                  transition={{ duration: 0.35, ease: "easeOut", delay: 0.08 * index }}
+                  className="rounded-sm border border-zinc-800 bg-black/30 px-5 py-5"
+                >
+                  <p className="text-xs uppercase tracking-[0.16em] text-gray-100">
+                    {item.label}
+                  </p>
+                  <p className="mt-2 font-mono text-3xl text-white">{item.value}</p>
+                </motion.div>
+              ))}
+            </div>
+          </div>
         </div>
       </motion.div>
     </section>

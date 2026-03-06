@@ -81,6 +81,37 @@ export default function Home() {
         </section>
 
         <ContactForm />
+
+        <section className="border-b border-zinc-800 px-6 py-16 lg:px-8">
+          <div className="mx-auto max-w-6xl space-y-6">
+            <h2 className="text-sm font-semibold tracking-[0.2em] text-gray-100">
+              SELECT TRACK RECORD
+            </h2>
+            <div className="grid gap-x-10 gap-y-4 md:grid-cols-2">
+              <p className="text-sm text-gray-400">
+                PayPal: Rails architecture and geo-expansion execution.
+              </p>
+              <p className="text-sm text-gray-400">
+                Block: High-concurrency routing and platform reliability.
+              </p>
+              <p className="text-sm text-gray-400">
+                Amazon: Global payment infrastructure and low-latency authorization.
+              </p>
+              <p className="text-sm text-gray-400">
+                Starbucks: Merchant auth optimization and checkout friction reduction.
+              </p>
+              <p className="text-sm text-gray-400">
+                Alterra Mountain Company: Interchange-aware optimization strategy.
+              </p>
+              <p className="text-sm text-gray-400">
+                Kendra Scott: Omnichannel authorization and conversion lift.
+              </p>
+              <p className="text-sm text-gray-400">
+                Newstore: Agentic commerce readiness and payment-stack optimization.
+              </p>
+            </div>
+          </div>
+        </section>
       </main>
 
       <footer className="px-6 py-10 lg:px-8">

@@ -36,6 +36,15 @@ export default function Header() {
               {item.label}
             </a>
           ))}
+          <a
+            href="https://linkedin.com/in/romcdonald"
+            target="_blank"
+            rel="noreferrer noopener"
+            aria-label="View Rob McDonald on LinkedIn (opens in a new tab)"
+            className="rounded-sm border border-zinc-700 px-3 py-1.5 text-sm font-semibold text-white transition-colors hover:border-blue-500/70 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/80"
+          >
+            LinkedIn
+          </a>
         </nav>
       </div>
     </motion.header>

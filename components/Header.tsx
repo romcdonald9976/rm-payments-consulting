@@ -1,0 +1,43 @@
+"use client";
+
+import { motion } from "framer-motion";
+
+const navItems = [
+  { label: "Capabilities", href: "#pillars" },
+  { label: "Case Study", href: "#technical-proof" },
+  { label: "Insights", href: "#insights" },
+  { label: "Contact", href: "#contact" },
+];
+
+export default function Header() {
+  return (
+    <motion.header
+      initial={{ opacity: 0, y: -16 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.5, ease: "easeOut" }}
+      className="sticky top-0 z-40 border-b border-white/10 bg-[#0a0a0a]/85 backdrop-blur"
+    >
+      <div className="mx-auto flex w-full max-w-6xl items-center justify-between px-6 py-4 lg:px-8">
+        <a
+          href="#"
+          aria-label="RM Payments Consulting home"
+          className="text-sm font-semibold tracking-[0.14em] text-white"
+        >
+          RM PAYMENTS CONSULTING
+        </a>
+        <nav className="hidden items-center gap-6 md:flex">
+          {navItems.map((item) => (
+            <a
+              key={item.href}
+              href={item.href}
+              aria-label={`Go to ${item.label} section`}
+              className="text-sm text-gray-100 transition-colors hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/80"
+            >
+              {item.label}
+            </a>
+          ))}
+        </nav>
+      </div>
+    </motion.header>
+  );
+}

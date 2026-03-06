@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import { Linkedin } from "lucide-react";
 
 const navItems = [
   { label: "Capabilities", href: "#pillars" },
@@ -41,9 +42,17 @@ export default function Header() {
             target="_blank"
             rel="noreferrer noopener"
             aria-label="View Rob McDonald on LinkedIn (opens in a new tab)"
-            className="rounded-sm border border-zinc-700 px-3 py-1.5 text-sm font-semibold text-white transition-colors hover:border-blue-500/70 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/80"
+            className="inline-flex items-center gap-2 rounded-sm border border-zinc-700 px-3 py-1.5 text-sm font-semibold text-white transition-colors hover:border-blue-500/70 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/80"
           >
+            <Linkedin size={15} aria-hidden="true" />
             LinkedIn
+          </a>
+          <a
+            href="#contact"
+            aria-label="Jump to contact form"
+            className="inline-flex items-center justify-center rounded-sm border border-white bg-white px-4 py-1.5 text-sm font-semibold text-black transition hover:bg-gray-100 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/80"
+          >
+            Let's Talk
           </a>
         </nav>
       </div>

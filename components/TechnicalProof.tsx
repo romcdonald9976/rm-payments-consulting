@@ -20,10 +20,10 @@ export default function TechnicalProof() {
       >
         <div className="space-y-4">
           <p className="text-xs font-semibold tracking-[0.24em] text-gray-100">
-            FEATURED VENTURE
+            FEATURED CASE STUDY
           </p>
           <h2 className="text-3xl font-semibold text-white sm:text-4xl">
-            Chikoh: Agentic Commerce / AI Assistant
+            Featured Venture: Chikoh (Agentic Commerce / AI Assistant)
           </h2>
           <p className="max-w-4xl text-gray-100">
             Chikoh is the featured product launch and a live case study for agentic

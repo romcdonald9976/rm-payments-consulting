@@ -3,6 +3,7 @@ import ContactForm from "../components/ContactForm";
 import Header from "../components/Header";
 import Hero from "../components/Hero";
 import Pillars from "../components/Pillars";
+import ProfessionalNarrative from "../components/ProfessionalNarrative";
 import TechnicalProof from "../components/TechnicalProof";
 
 const insights = [
@@ -45,6 +46,7 @@ export default function Home() {
       <main>
         <Hero />
         <Pillars />
+        <ProfessionalNarrative />
         <TechnicalProof />
         <About />
 
@@ -83,32 +85,42 @@ export default function Home() {
         <ContactForm />
 
         <section className="border-b border-zinc-800 px-6 py-16 lg:px-8">
-          <div className="mx-auto max-w-6xl space-y-6">
+          <div className="mx-auto max-w-6xl space-y-8">
+            <p className="max-w-5xl text-2xl font-bold leading-tight text-white sm:text-3xl">
+              Don&apos;t just build payments. Build efficient, high-converting, agentic
+              commerce. I bring <span className="font-mono">24</span> years of engineering
+              and strategic experience to your stack.
+            </p>
             <h2 className="text-sm font-semibold tracking-[0.2em] text-gray-100">
-              SELECT TRACK RECORD
+              CONSULTING FRAMEWORK
             </h2>
-            <div className="grid gap-x-10 gap-y-4 md:grid-cols-2">
-              <p className="text-sm text-gray-400">
-                PayPal: Rails architecture and geo-expansion execution.
-              </p>
-              <p className="text-sm text-gray-400">
-                Block: High-concurrency routing and platform reliability.
-              </p>
-              <p className="text-sm text-gray-400">
-                Amazon: Global payment infrastructure and low-latency authorization.
-              </p>
-              <p className="text-sm text-gray-400">
-                Starbucks: Merchant auth optimization and checkout friction reduction.
-              </p>
-              <p className="text-sm text-gray-400">
-                Alterra Mountain Company: Interchange-aware optimization strategy.
-              </p>
-              <p className="text-sm text-gray-400">
-                Kendra Scott: Omnichannel authorization and conversion lift.
-              </p>
-              <p className="text-sm text-gray-400">
-                Newstore: Agentic commerce readiness and payment-stack optimization.
-              </p>
+            <div className="grid gap-6 md:grid-cols-2">
+              <article className="rounded-md border border-zinc-800 bg-zinc-950/70 p-6">
+                <h3 className="text-lg font-semibold text-white">Infrastructure &amp; Scale</h3>
+                <p className="mt-2 text-sm text-gray-400">
+                  Architecting for high-concurrency, global volume, and low-latency
+                  authorization.
+                </p>
+                <div className="mt-4 space-y-2 text-sm text-gray-400">
+                  <p>PayPal: Rails and geo-expansion architecture at global scale.</p>
+                  <p>Block: High-concurrency routing and platform resiliency design.</p>
+                  <p>Amazon: Low-latency authorization infrastructure for global commerce.</p>
+                </div>
+              </article>
+              <article className="rounded-md border border-zinc-800 bg-zinc-950/70 p-6">
+                <h3 className="text-lg font-semibold text-white">Optimization &amp; Conversion</h3>
+                <p className="mt-2 text-sm text-gray-400">
+                  Turning payment stacks into profit centers-reducing friction and increasing
+                  auth rates.
+                </p>
+                <div className="mt-4 space-y-2 text-sm text-gray-400">
+                  <p>Starbucks: Checkout optimization and measurable approval improvements.</p>
+                  <p>Alterra Mountain Company: Interchange and routing strategy tuning.</p>
+                  <p>Kendra Scott: Omnichannel auth optimization for stronger conversion.</p>
+                  <p>Newstore: Agentic commerce readiness and payment stack performance.</p>
+                  <p>Newswire: Merchant-side orchestration to reduce payment friction.</p>
+                </div>
+              </article>
             </div>
           </div>
         </section>

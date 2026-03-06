@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import About from "../components/About";
 import ContactForm from "../components/ContactForm";
 import Header from "../components/Header";
@@ -5,6 +6,26 @@ import Hero from "../components/Hero";
 import Pillars from "../components/Pillars";
 import ProfessionalNarrative from "../components/ProfessionalNarrative";
 import TechnicalProof from "../components/TechnicalProof";
+
+export const metadata: Metadata = {
+  title: "Enterprise Payments Infrastructure and Agentic Commerce",
+  description:
+    "RM Payments Consulting helps platforms and merchants improve authorization, reduce friction, and architect AI-native commerce infrastructure.",
+  openGraph: {
+    title: "Enterprise Payments Infrastructure and Agentic Commerce",
+    description:
+      "RM Payments Consulting helps platforms and merchants improve authorization, reduce friction, and architect AI-native commerce infrastructure.",
+    url: "/",
+    images: [
+      {
+        url: "https://example.com/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "RM Payments Consulting social preview image",
+      },
+    ],
+  },
+};
 
 const insights = [
   {

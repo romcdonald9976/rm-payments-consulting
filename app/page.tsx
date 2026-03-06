@@ -48,8 +48,8 @@ export default function Home() {
         <TechnicalProof />
         <About />
 
-        <section id="insights" className="border-b border-white/10 px-6 py-20 lg:px-8">
-          <div className="mx-auto max-w-6xl space-y-10">
+        <section id="insights" className="border-b border-zinc-800 px-6 py-24 lg:px-8">
+          <div className="mx-auto max-w-6xl space-y-12">
             <div className="space-y-3">
               <p className="text-xs font-semibold tracking-[0.24em] text-gray-100">
                 INSIGHTS
@@ -59,7 +59,7 @@ export default function Home() {
               </h2>
             </div>
 
-            <div className="grid gap-5 md:grid-cols-3">
+            <div className="grid gap-6 md:grid-cols-3">
               {insights.map((item) => (
                 <a
                   key={item.title}
@@ -67,7 +67,7 @@ export default function Home() {
                   target="_blank"
                   rel="noreferrer noopener"
                   aria-label={`Read full LinkedIn breakdown for ${item.title} (opens in a new tab)`}
-                  className="rounded-sm border border-white/20 bg-zinc-950/70 p-6 transition hover:border-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/80"
+                  className="rounded-md border border-zinc-800 bg-zinc-950/70 p-8 transition-colors hover:border-blue-500/50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/80"
                 >
                   <p className="font-mono text-sm text-gray-100">LinkedIn</p>
                   <h3 className="mt-3 text-xl font-semibold text-white">{item.title}</h3>
@@ -83,8 +83,8 @@ export default function Home() {
         <ContactForm />
       </main>
 
-      <footer className="px-6 py-8 lg:px-8">
-        <div className="mx-auto max-w-6xl border-t border-white/10 pt-6 text-sm text-gray-100">
+      <footer className="px-6 py-10 lg:px-8">
+        <div className="mx-auto max-w-6xl border-t border-zinc-800 pt-8 text-sm text-gray-100">
           © 2026 RM Payments Solutions LLC
         </div>
       </footer>

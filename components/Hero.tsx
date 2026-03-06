@@ -4,19 +4,19 @@ import { motion } from "framer-motion";
 
 export default function Hero() {
   return (
-    <section className="border-b border-white/10 px-6 py-20 lg:px-8 lg:py-28">
+    <section className="border-b border-zinc-800 px-6 py-24 lg:px-8 lg:py-32">
       <motion.div
         initial={{ opacity: 0, y: 24 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true, amount: 0.35 }}
         transition={{ duration: 0.6, ease: "easeOut" }}
-        className="mx-auto flex max-w-6xl flex-col gap-10"
+        className="mx-auto flex max-w-6xl flex-col gap-12"
       >
-        <div className="max-w-4xl space-y-6">
+        <div className="max-w-4xl space-y-8">
           <p className="text-xs font-semibold tracking-[0.24em] text-gray-100">
             ENTERPRISE PAYMENTS STRATEGY
           </p>
-          <h1 className="text-4xl font-semibold leading-tight text-white sm:text-5xl lg:text-6xl">
+          <h1 className="text-4xl font-bold leading-tight tracking-tight text-white sm:text-5xl lg:text-6xl">
             Architecting the Core Infrastructure of Global Commerce.
           </h1>
           <p className="max-w-3xl text-lg leading-relaxed text-gray-100">

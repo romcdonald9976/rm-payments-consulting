@@ -5,13 +5,13 @@ import { motion } from "framer-motion";
 
 export default function About() {
   return (
-    <section id="about" className="border-b border-white/10 px-6 py-20 lg:px-8">
+    <section id="about" className="border-b border-zinc-800 px-6 py-24 lg:px-8">
       <motion.div
         initial={{ opacity: 0, y: 18 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true, amount: 0.2 }}
         transition={{ duration: 0.6, ease: "easeOut" }}
-        className="mx-auto grid max-w-6xl items-center gap-10 lg:grid-cols-[0.75fr_1.25fr]"
+        className="mx-auto grid max-w-6xl items-center gap-12 lg:grid-cols-[0.75fr_1.25fr]"
       >
         <div className="mx-auto w-full max-w-sm overflow-hidden rounded-sm border border-white/15 bg-zinc-900">
           <Image

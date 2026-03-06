@@ -31,13 +31,13 @@ const pillars = [
 
 export default function Pillars() {
   return (
-    <section id="pillars" className="border-b border-white/10 px-6 py-20 lg:px-8">
+    <section id="pillars" className="border-b border-zinc-800 px-6 py-24 lg:px-8">
       <motion.div
         initial={{ opacity: 0, y: 18 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true, amount: 0.25 }}
         transition={{ duration: 0.6, ease: "easeOut" }}
-        className="mx-auto max-w-6xl space-y-10"
+        className="mx-auto max-w-6xl space-y-12"
       >
         <div className="space-y-3">
           <p className="text-xs font-semibold tracking-[0.24em] text-gray-100">
@@ -48,7 +48,7 @@ export default function Pillars() {
           </h2>
         </div>
 
-        <div className="grid gap-5 md:grid-cols-2">
+        <div className="grid gap-6 md:grid-cols-2">
           {pillars.map((pillar, index) => (
             <motion.article
               key={pillar.id}
@@ -56,10 +56,10 @@ export default function Pillars() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, amount: 0.35 }}
               transition={{ duration: 0.45, ease: "easeOut", delay: index * 0.08 }}
-              className="rounded-sm border border-white/15 bg-zinc-950/70 p-6"
+              className="rounded-md border border-zinc-800 bg-zinc-950/70 p-8 transition-colors hover:border-blue-500/50"
             >
-              <p className="font-mono text-sm text-gray-100">{pillar.id}</p>
-              <h3 className="mt-3 text-xl font-semibold text-white">{pillar.title}</h3>
+              <p className="font-mono text-sm text-zinc-300">{pillar.id}</p>
+              <h3 className="mt-4 text-xl font-semibold text-white">{pillar.title}</h3>
               <p className="mt-4 text-sm leading-relaxed text-gray-100">{pillar.detail}</p>
             </motion.article>
           ))}

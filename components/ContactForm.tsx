@@ -43,13 +43,13 @@ export default function ContactForm() {
   }
 
   return (
-    <section id="contact" className="border-b border-white/10 px-6 py-20 lg:px-8">
+    <section id="contact" className="border-b border-zinc-800 px-6 py-24 lg:px-8">
       <motion.div
         initial={{ opacity: 0, y: 18 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true, amount: 0.2 }}
         transition={{ duration: 0.6, ease: "easeOut" }}
-        className="mx-auto max-w-4xl rounded-sm border border-white/15 bg-zinc-950/70 p-7 sm:p-10"
+        className="mx-auto max-w-4xl rounded-sm border border-zinc-800 bg-zinc-950/70 p-8 sm:p-10"
       >
         <div className="space-y-4">
           <p className="text-xs font-semibold tracking-[0.24em] text-gray-100">

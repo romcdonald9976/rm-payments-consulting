@@ -10,13 +10,13 @@ const stats = [
 
 export default function TechnicalProof() {
   return (
-    <section id="technical-proof" className="border-b border-white/10 px-6 py-20 lg:px-8">
+    <section id="technical-proof" className="border-b border-zinc-800 px-6 py-24 lg:px-8">
       <motion.div
         initial={{ opacity: 0, y: 18 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true, amount: 0.25 }}
         transition={{ duration: 0.6, ease: "easeOut" }}
-        className="mx-auto grid max-w-6xl gap-10 lg:grid-cols-[1.1fr_0.9fr]"
+        className="mx-auto grid max-w-6xl gap-12 lg:grid-cols-[1.1fr_0.9fr]"
       >
         <div className="space-y-5">
           <p className="text-xs font-semibold tracking-[0.24em] text-gray-100">

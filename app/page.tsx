@@ -1,9 +1,9 @@
-import About from "@/components/About";
-import ContactForm from "@/components/ContactForm";
-import Header from "@/components/Header";
-import Hero from "@/components/Hero";
-import Pillars from "@/components/Pillars";
-import TechnicalProof from "@/components/TechnicalProof";
+import About from "../components/About";
+import ContactForm from "../components/ContactForm";
+import Header from "../components/Header";
+import Hero from "../components/Hero";
+import Pillars from "../components/Pillars";
+import TechnicalProof from "../components/TechnicalProof";
 
 const insights = [
   {
